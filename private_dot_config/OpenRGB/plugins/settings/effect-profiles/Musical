@@ -1,0 +1,145 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 1
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "audio_settings": {
+                    "amplitude": 100,
+                    "audio_device": 0,
+                    "avg_mode": 0,
+                    "avg_size": 8,
+                    "decay": 80,
+                    "equalizer": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "filter_constant": 1.0,
+                    "nrml_ofst": 0.03999999910593033,
+                    "nrml_scl": 0.5,
+                    "window_mode": 0
+                },
+                "radius": 0
+            },
+            "EffectClassName": "SwirlCirclesAudio",
+            "FPS": 60,
+            "RandomColors": true,
+            "Slider2Val": 30,
+            "Speed": 60,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                3879917,
+                2956709
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 74,
+            "ControllerZones": [
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 2
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "audio_settings": {
+                    "amplitude": 100,
+                    "audio_device": 0,
+                    "avg_mode": 0,
+                    "avg_size": 8,
+                    "decay": 80,
+                    "equalizer": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "filter_constant": 1.0,
+                    "nrml_ofst": 0.03999999910593033,
+                    "nrml_scl": 0.5,
+                    "window_mode": 0
+                },
+                "color_offset": 74.0,
+                "color_spread": 56.0,
+                "invert_hue": false,
+                "saturation": 255
+            },
+            "EffectClassName": "AudioVUMeter",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 10,
+            "Temperature": 0,
+            "Tint": 0
+        }
+    ],
+    "version": 2
+}

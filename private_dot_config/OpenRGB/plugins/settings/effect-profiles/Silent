@@ -1,0 +1,78 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 2
+                },
+                {
+                    "description": "ASUS Aura USB Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS TUF GAMING B760M-E D4",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0215",
+                    "zone_idx": 3
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "lightning_mode": 1
+            },
+            "EffectClassName": "Lightning",
+            "FPS": 60,
+            "RandomColors": true,
+            "Slider2Val": 10,
+            "Speed": 20,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                65492
+            ]
+        }
+    ],
+    "version": 2
+}

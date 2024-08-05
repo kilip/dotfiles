@@ -1,0 +1,46 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "audio_settings": {
+            "amplitude": 100,
+            "audio_device": 0,
+            "avg_mode": 1,
+            "avg_size": 8,
+            "decay": 80,
+            "equalizer": [
+                2.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "filter_constant": 1.0,
+            "nrml_ofst": 0.03999999910593033,
+            "nrml_scl": 0.5,
+            "window_mode": 0
+        },
+        "color_offset": 149.0,
+        "color_spread": 62.0,
+        "invert_hue": false,
+        "saturation": 255
+    },
+    "EffectClassName": "AudioVUMeter",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 1,
+    "Speed": 10,
+    "Temperature": 0,
+    "Tint": 0
+}
