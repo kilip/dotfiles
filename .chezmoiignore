@@ -1,8 +1,7 @@
 README.md
 LICENSE
 install.sh
+.config/OpenRGB/logs
 {{- if ne .chezmoi.hostname "zeus" }}
 .config/OpenRGB
 {{- end }}
-
-.config/OpenRGB/logs/*
