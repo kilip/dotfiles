@@ -1,11 +1,11 @@
 README.md
 LICENSE
 install.sh
-{{- if eq .chezmoi.hostname "zeus" }}
+{{ if eq .chezmoi.hostname "zeus" }}
 .config/OpenRGB/logs
 .foo/bar
-{{- end }}
+{{ end }}
 
-{{- if ne .chezmoi.hostname "zeus" }}
+{{ if ne .chezmoi.hostname "zeus" }}
 .config/OpenRGB
-{{- end }}
+{{ end }}
