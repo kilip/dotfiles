@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+
+if [ -f ./vendor/bin/phpstan ]; then
+  php ./vendor/bin/phpstan "$@"
+fi
