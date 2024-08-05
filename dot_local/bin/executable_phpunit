@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+if [ -f ./vendor/bin/phpunit ]; then
+  exec ./vendor/bin/phpunit "$@"
+fi
