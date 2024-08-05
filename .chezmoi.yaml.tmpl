@@ -1,0 +1,10 @@
+git:
+  autoCommit: true
+  autoPush: true
+  autoAdd: true
+
+encryption: age
+
+age:
+  identity: ~/.config/sops/age/keys.txt
+  recipient: {{ pass "age/public" }}
