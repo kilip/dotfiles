@@ -1,0 +1,9 @@
+#!/bin/sh
+
+pwd > ~/out
+
+if [ -f ".env" ]; then
+	dotenv
+  # or if you use shell format:
+  # source_env ".env" 
+fi
