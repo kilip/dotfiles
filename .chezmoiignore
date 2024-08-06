@@ -6,4 +6,5 @@ install.sh
 {{ end }}
 {{ if ne .chezmoi.hostname "zeus" }}
 .config/OpenRGB
+.config/regolith3
 {{ end }}
