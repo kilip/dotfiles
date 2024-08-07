@@ -1,2 +1,4 @@
 regolith.wallpaper.file: 
 regolith.wallpaper.color.primary: 
+
+gnome.terminal.use-transparent-background: true
