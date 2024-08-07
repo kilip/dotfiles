@@ -2,4 +2,4 @@ regolith.wallpaper.file:
 regolith.wallpaper.color.primary: 
 
 gnome.terminal.use-transparent-background: true
-gnome.terminal.background-transparency-percent: 10
+gnome.terminal.background-transparency-percent: 15
