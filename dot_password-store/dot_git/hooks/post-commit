@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+set -x
+git pull --rebase # get edits by other devices
+git push          # send the latest commit
