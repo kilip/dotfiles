@@ -3,6 +3,7 @@ LICENSE
 install.sh
 {{ if eq .chezmoi.hostname "zeus" }}
 .config/OpenRGB/logs
+.config/OpenRGB/plugins
 {{ end }}
 {{ if ne .chezmoi.hostname "zeus" }}
 .config/OpenRGB
