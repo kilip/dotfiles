@@ -2,5 +2,5 @@ regolith.wallpaper.file:
 regolith.wallpaper.color.primary: 
 
 #gnome.terminal.use-transparent-background: true
-gnome.terminal.background-transparency-percent: 5
+gnome.terminal.background-transparency-percent: 8
 gnome.terminal.font: FiraCodeNerdFont Mono 12
