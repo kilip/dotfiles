@@ -15,4 +15,4 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
   end
 end
 
-set -gx PATH "~/.local/bin"
+set -gx PATH "/home/toni/.local/bin" $PATH
