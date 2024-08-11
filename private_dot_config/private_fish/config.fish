@@ -15,4 +15,4 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
   end
 end
 
-set -Ua fish_user_paths "~/.local/bin"
+set -gx PATH "~/.local/bin"
