@@ -15,4 +15,4 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
   end
 end
 
-set -p fish_add_path "~/.local/bin"
+set -p fish_add_path -p "~/.local/bin"
