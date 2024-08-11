@@ -14,3 +14,5 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
     set -p fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
   end
 end
+
+set -p fish_add_path "~/.local/bin"
