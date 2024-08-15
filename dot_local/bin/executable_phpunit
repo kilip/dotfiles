@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -f ./bin/phpunit ]; then
-  exec ./bin/phpuni "@"
+  exec ./bin/phpunit "@"
 elif [ -f ./vendor/bin/phpunit ]; then
   exec ./vendor/bin/phpunit "$@"
 fi
