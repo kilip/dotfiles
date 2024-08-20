@@ -15,6 +15,9 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
   end
 end
 
-set -gx DENO_INSTALL "/home/toni/.deno"
 set -gx PATH "/home/toni/.local/bin" $PATH
-set -gx PATH "/home/toni/.deno/bin" $PATH
+
+if test -f /home/toni/.deno
+  set -gx DENO_INSTALL "/home/toni/.deno"
+  set -gx PATH "/home/toni/.deno/bin" $PATH
+end
