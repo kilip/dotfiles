@@ -17,7 +17,7 @@ end
 
 set -gx PATH "/home/toni/.local/bin" $PATH
 
-if test -f /home/toni/.deno/bin/deno
-  set -gx DENO_INSTALL "/home/toni/.deno"
-  set -gx PATH "/home/toni/.deno/bin" $PATH
-end
+#if test -f /home/toni/.deno/bin/deno
+#  set -gx DENO_INSTALL "/home/toni/.deno"
+#  set -gx PATH "/home/toni/.deno/bin" $PATH
+#end
