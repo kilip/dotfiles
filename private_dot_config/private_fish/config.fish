@@ -16,3 +16,4 @@ if test -f /home/linuxbrew/.linuxbrew/bin/brew
 end
 
 set -gx PATH "/home/toni/.local/bin" $PATH
+set -gx PATH "/home/toni/.deno/bin" $PATH
