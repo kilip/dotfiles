@@ -23,3 +23,10 @@ set -gx PATH "/home/toni/apps/android-studio/bin" $PATH
 #  set -gx DENO_INSTALL "/home/toni/.deno"
 #  set -gx PATH "/home/toni/.deno/bin" $PATH
 #end
+
+# pnpm
+set -gx PNPM_HOME "/home/toni/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
