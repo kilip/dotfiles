@@ -4,3 +4,4 @@ regolith.wallpaper.color.primary:
 #gnome.terminal.use-transparent-background: true
 gnome.terminal.background-transparency-percent: 8
 gnome.terminal.font: FiraCodeNerdFont Mono 12
+regolith.sway.unsupported_gpu: true
