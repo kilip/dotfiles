@@ -31,5 +31,5 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-set -gx PATH "/home/toni/.config/herd-lite/bin" $PATH
-set -gx PHP_INI_SCAN_DIR "/home/toni/.config/herd-lite/bin" $PHP_INI_SCAN_DIR
+#set -gx PATH "/home/toni/.config/herd-lite/bin" $PATH
+#set -gx PHP_INI_SCAN_DIR "/home/toni/.config/herd-lite/bin" $PHP_INI_SCAN_DIR
