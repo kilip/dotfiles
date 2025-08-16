@@ -18,6 +18,7 @@ end
 set -gx PATH "/home/toni/.local/bin" $PATH
 set -gx PATH "/home/toni/apps/flutter/bin" $PATH
 set -gx PATH "/home/toni/apps/android-studio/bin" $PATH
+set -gx PATH "/home/toni/go/bin" $PATH
 
 #if test -f /home/toni/.deno/bin/deno
 #  set -gx DENO_INSTALL "/home/toni/.deno"
