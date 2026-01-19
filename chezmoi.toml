@@ -1,2 +1,2 @@
 [edit]
-    editor="nvim"
+    command="nvim"
