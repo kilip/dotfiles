@@ -1,0 +1,15 @@
+[init]
+	defaultBranch = main
+[user]
+	# signingKey = E6B3B46F2FA481E0!
+	signingKey = 639868122DBC20F9!
+	name = Anthonius Munthi
+	email = me@itstoni.com
+[commit]
+	gpgsign = true
+[core]
+	excludesFile = /home/toni/.gitignore
+	editor = nvim
+
+[alias]
+    resign = "!f() { git rebase --exec 'git commit --amend --no-edit -n -S' -i \"$1\"; }; f"
